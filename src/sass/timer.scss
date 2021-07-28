@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  // background-image: url(http://cdn30.us1.fansshare.com/image/wallpaperwhite/abstract-black-and-white-image-2089835102.jpg);
+  background-image: url(../images/bg-timer.jpeg);
+  background-size: cover;
+  background-color: #006986;
+  background-repeat: no-repeat;
+  height: 216px;
+  
+}
+section {
+  min-width: 616px;
+  max-width: 800px;
+  height: 157px;
+  margin: auto;
+  text-align: center;
+}
+button,
+input {
+  border-color: rgb(217, 255, 0);
+  background-color: #fff195;
+  color: black;
+}
+.timer {
+  padding: 0 16px;
+  background-color: #f0f2f1;
+  display: none;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.field,
+.label {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 1px;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  background-color: #ffe22f;
+  color: #fff;
+  display: grid;
+  align-items: center;
+}
+
+.value {
+  font-size: 40px;
+}
+
+span {
+  display: inline-flex;
+  color: rgb(126, 113, 165);
+  font-weight: 500;
+}
